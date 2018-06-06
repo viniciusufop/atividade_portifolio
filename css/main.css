@@ -101,3 +101,9 @@ ul {
 .selo {
     text-align: right;
 }
+
+.imagem-selo {
+    border: 0;
+    width: 88px;
+    height: 31px
+}
