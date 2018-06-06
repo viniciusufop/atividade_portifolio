@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- tags meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- referencia de css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/zocial.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <!-- referencia de java script -->
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- definir a fonte a ser utilizada -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <!-- titulo da pagina -->
+    <title>Portifólio Vinicius</title>
+</head>
+<body>
+    <!-- divindo o html, primeiro aplicar um container-->
+    <div class="container">
+        <!-- header -->
+        <header>
+            <div class="row">
+                <div class="col-sm-3">  
+                    <img class="logo" src="img/logo.png" alt="logo do site de portifolio do vinicius">
+                </div>  
+                <div class="col-sm-9 titulo-site">
+                    <h1>Vinícius Faria de Souza</h1>
+                    <h3>Front End Development</h3>
+                </div>
+            </div>
+            <div class="row">
+                <hr class="col-sm-12">
+            </div>
+        </header>
+        <!-- imagem pricipal da pagina -->
+        <div class="row">
+            <div class="col-sm-12">
+                <figure>
+                    <picture>
+                        <source media="(min-width: 1281px)" srcset="img/artificial-intelligence_1920.jpg" />
+                        <source media="(min-width: 800px)" srcset="img/artificial-intelligence_1280.jpg" />
+                        <img src="img/artificial-intelligence_small.jpg" alt="imagem representativa do site">
+                    </picture>
+                    <figcaption>
+                        <p class="frase frase-conteudo">“Antes do software poder ser reutilizável ele primeiro tem de ser utilizável.”</p>
+                        <p class="frase frase-autor">Ralph Johnson</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <!-- sessao dos trabalhos -->
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Trabalho em destaque</h2>
+            </div>
+        </div>
+        <section class="row">
+            <article class="col-sm-4 projeto">
+                <img src="http://via.placeholder.com/100x100" alt="imagem do projeto">
+                <h4>Projeto 1</h4>
+                <a href="#">Acesse ao repositório do projeto</a>
+            </article>
+            <article class="col-sm-4 projeto">
+                <img src="http://via.placeholder.com/100x100" alt="imagem do projeto">
+                <h4>Projeto 2</h4>
+                <a href="#">Acesse ao repositório do projeto</a>
+            </article>
+            <article class="col-sm-4 projeto">
+                <img src="http://via.placeholder.com/100x100" alt="imagem do projeto">
+                <h4>Projeto 3</h4>
+                <a href="#">Acesse ao repositório do projeto</a>
+            </article>
+        </section>
+        <!-- rodape da pagina -->
+        <footer>
+            <div class="row">
+                <hr class="col-sm-12">
+            </div>
+            <div class="row">
+                <!-- links de acesso as redes socias -->
+                <div class="col-sm-9 rede-social">
+                    <ul>
+                        <li class="rede-social-item"><a href="#" class="zocial icon linkedin"></a></li>
+                        <li class="rede-social-item"><a href="#" class="zocial icon facebook"></a></li>
+                        <li class="rede-social-item"><a href="#" class="zocial icon github"></a></li>
+                    </ul>
+                </div>
+                <!-- selo do validacao do ccs do site -->
+                <div class="col-sm-3">
+                        <p class="selo">
+                            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                <img style="border:0;width:88px;height:31px"
+                                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                    alt="CSS válido!" />
+                            </a>
+                        </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

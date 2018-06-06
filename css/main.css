@@ -1,0 +1,94 @@
+/* regra para todo escopo */
+* {
+    box-sizing: border-box;
+    font-family: "Indie Flower", cursive;
+}
+
+/* desenvolvendo definicoes das tags */
+img {
+    width: 100%;
+}
+
+h2 {
+    color: #bbb;
+}
+
+hr {
+    border-top: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+    height: 3px;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+}
+
+/* definicao usando media query */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .titulo-site {
+        text-align: right;
+    }
+
+    .rede-social {
+        padding-left: 25%;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .titulo-site {
+        text-align: center;
+    }
+
+    .rede-social {
+        padding: 0px;
+        margin: 0 auto;
+    }
+}
+
+/* definindo as classes */
+.titulo-site {
+    color: gray;
+}
+
+.projeto {
+    text-align: center;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.rede-social {
+    list-style-type: none;
+}
+
+.rede-social-item {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.frase {
+    text-align: center;
+}
+
+.frase-conteudo {
+    font-style: italic;
+}
+
+.frase-autor {
+    font-weight: bold; 
+}
+
+.selo {
+    text-align: right;
+}
